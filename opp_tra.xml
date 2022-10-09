@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#F0F0F0"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/oppr3"
+                    android:layout_width="180dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:checked="true"
+                    android:text="@string/o13"
+                    android:background="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/oppr4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/o14"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#F0F0F0"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/opptv1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/o2"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F0F0F0"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/oppr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:checked="true"
+                        android:text="@string/o3"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <RadioButton
+                        android:id="@+id/oppr2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/o4"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="#F0F0F0"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/opptv2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="@string/o5"
+                android:gravity="center|bottom"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F0F0F0"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/oppch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="@string/o6"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/oppch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="@string/o7"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <CheckBox
+                    android:id="@+id/oppch3"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="Voucher Information"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <CheckBox
+                    android:id="@+id/oppch4"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="User Information"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#F0F0F0"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="@string/o9"
+                android:gravity="bottom|center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F0F0F0"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/oppch5"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5dp"
+                    android:checked="true"
+                    android:text="@string/o11"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <CheckBox
+                    android:id="@+id/oppch6"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5dp"
+                    android:checked="true"
+                    android:text="Only Not Sync Data"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/prog_bar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="100"
+            android:progress="0"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:id="@+id/prog_tx"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#00FF00"
+            android:textStyle="bold|italic"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/prog_tx1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Process Found"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:textStyle="bold|italic"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/oppb1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#10DF18"
+            android:text="@string/o12"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

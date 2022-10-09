@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/abtsebscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sb0"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sb1"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:scrollbars="horizontal|vertical"
+            android:scrollbarStyle="outsideInset"
+            android:fillViewport="true"
+            >
+
+        <HorizontalScrollView
+            android:id="@+id/subthorizontalView"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dip">
+            <TableLayout
+                android:id="@+id/ittramenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E9ED"
+                android:isScrollContainer="true">
+
+            <TableRow >
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:isScrollContainer="true"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="340dp"
+                android:layout_height="210dp"
+                android:background="@drawable/border"
+                android:isScrollContainer="true"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@mipmap/omega"
+                    />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb2"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb3"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb4"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb5"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb6"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb7"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb8"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb9"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb10"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb11"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb12"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb13"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb14"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb15"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb16"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb17"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb18"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb19"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb20"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb21"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:text="@string/sb22"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sb23"
+                        android:textAlignment="center"
+                        android:textColor="#041FB1"
+                        android:textSize="17sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/sebtx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+        </LinearLayout>
+            </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

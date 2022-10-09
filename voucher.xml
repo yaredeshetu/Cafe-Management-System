@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        >
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#E8DCDC"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#FDFCFC"
+                    android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/vouchsp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/vouch_sear"
+                    android:spinnerMode="dropdown" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/vouchbt"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/ic_menu_search"
+                    android:textSize="15sp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        <ScrollView
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:scrollbars="horizontal|vertical"
+            android:scrollbarStyle="outsideInset"
+            android:fillViewport="true"
+            android:background="@drawable/border"
+            >
+
+            <HorizontalScrollView
+                android:id="@+id/vouchhorizontalView"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal|vertical"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dip">
+
+                <TableLayout
+                    android:id="@+id/vouchmenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E8E9ED"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:isScrollContainer="true">
+
+                    <TableRow
+                        android:id="@+id/vouchrow1"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:text="Vouch_ID"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:text="Date"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="15sp"
+                            android:text="Voucher To" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Discount" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Tax" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Total" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Received" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Due Balance" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Sales Type" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#4CAF50"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Item Count" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
