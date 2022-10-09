@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_home" />
+    </group>
+    <item android:title="Opperation">
+        <menu>
+            <item
+                android:id="@+id/nav_sto_grv"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Goods Receiving"/>
+            <item
+                android:id="@+id/nav_sto_issu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Store Issue"/>
+            <item
+                android:id="@+id/nav_sto_dis"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Disposal Voucher"/>
+        </menu>
+    </item>
+    <item android:title="Report">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Inventory Report" />
+        </menu>
+    </item>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_items"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_items" />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_prof"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_prof" />
+            <item
+                android:id="@+id/nav_aboutsub"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_aboutseb" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+</menu>

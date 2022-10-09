@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="Manager Opperation">
+        <menu>
+            <item
+                android:id="@+id/nav_pay_cash"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pay To Cashier" />
+            <item
+                android:id="@+id/nav_rec_cash"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Receive From Cashier" />
+        </menu>
+    </item>
+    <item android:title="Waiter">
+        <menu>
+            <item
+                android:id="@+id/nav_sales_ord"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_sales_order" />
+            <item
+                android:id="@+id/nav_sales_man_ord"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Order" />
+            <item
+                android:id="@+id/nav_man_table"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Table" />
+        </menu>
+    </item>
+    <item android:title="Order Man">
+        <menu>
+            <item
+                android:id="@+id/nav_order_view"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_order_view" />
+        </menu>
+    </item>
+    <item android:title="Cashier">
+        <menu>
+            <item
+                android:id="@+id/nav_to_ord"
+                android:icon="@drawable/ic_menu_send"
+                android:title="To Order Man" />
+            <item
+                android:id="@+id/nav_sal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Item Sales" />
+            <item
+                android:id="@+id/nav_pur"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Item Purchase" />
+            <item
+                android:id="@+id/nav_pay"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Payment" />
+        </menu>
+    </item>
+    <item android:title="Inventory">
+        <menu>
+            <item
+                android:id="@+id/nav_sto_grv"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Goods Receiving"/>
+            <item
+                android:id="@+id/nav_sto_issu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Store Issue"/>
+            <item
+                android:id="@+id/nav_sto_dis"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Disposal Voucher"/>
+        </menu>
+    </item>
+    <item android:title="Report">
+        <menu>
+            <item
+                android:id="@+id/nav_vouch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_vouch" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Inventory Report" />
+            <item
+                android:id="@+id/nav_repo_wai"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Waiter Report" />
+            <item
+                android:id="@+id/nav_sales_repo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cashier Report" />
+            <item
+                android:id="@+id/nav_sales_today"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Today" />
+        </menu>
+    </item>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_cha"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Tables" />
+            <item
+                android:id="@+id/nav_per"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Working Date" />
+            <item
+                android:id="@+id/nav_items"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_items" />
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_user" />
+            <item
+                android:id="@+id/nav_impo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_impo" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_setting" />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_prof"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_prof" />
+            <item
+                android:id="@+id/nav_aboutsub"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_aboutseb" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+</menu>

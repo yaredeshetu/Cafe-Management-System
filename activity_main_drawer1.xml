@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_home" />
+    </group>
+    <item android:title="Cashier">
+        <menu>
+            <item
+                android:id="@+id/nav_to_ord"
+                android:icon="@drawable/ic_menu_send"
+                android:title="To Order Man" />
+            <item
+                android:id="@+id/nav_sales_man_ord"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Order" />
+            <item
+                android:id="@+id/nav_sal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Item Sales" />
+            <item
+                android:id="@+id/nav_pur"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Item Purchase" />
+            <item
+                android:id="@+id/nav_pay"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Payment" />
+        </menu>
+    </item>
+    <item android:title="Report">
+        <menu>
+            <item
+                android:id="@+id/nav_vouch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_vouch" />
+            <item
+                android:id="@+id/nav_sales_repo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cashier Report" />
+        </menu>
+    </item>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_impo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_impo" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_setting" />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_prof"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_prof" />
+            <item
+                android:id="@+id/nav_aboutsub"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_aboutseb" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+</menu>
