@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="pay_type" tools:ignore="ExtraTranslation">
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Bank</item>
+    </string-array>
+    <string-array name="item_sear">
+        <item>Search All</item>
+        <item>Item Id</item>
+        <item>Item Name</item>
+    </string-array>
+    <string-array name="pdf_sear">
+        <item></item>
+        <item>Open</item>
+        <item>Save To Phone</item>
+        <item>Print</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="sel_item">
+        <item></item>
+        <item>Share</item>
+        <item>Export</item>
+        <item>Print</item>
+        <item>Delete</item>
+        <item>Select All</item>
+    </string-array>
+    <string-array name="sal_sear">
+        <item>All Type</item>
+        <item>Cash Only</item>
+        <item>Credit Only</item>
+    </string-array>
+    <string-array name="xls_sear">
+        <item></item>
+        <item>Open</item>
+        <item>Export To Phone</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="sales_sear">
+        <item>Daily</item>
+        <item>Select Date</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="status_sear">
+        <item>Active</item>
+        <item>Passive</item>
+    </string-array>
+    <string-array name="conn_sear">
+        <item>LAN(PC)</item>
+        <item>LAN(Mobile)</item>
+        <item>MAN</item>
+        <item>WAN</item>
+    </string-array>
+    <string-array name="vouch_sear">
+        <item>All Voucher Type</item>
+        <item>Cash Item Sales</item>
+        <item>Credit Item Sales</item>
+        <item>Cash Item Purchase</item>
+        <item>Credit Item Purchase</item>
+    </string-array>
+    <string-array name="user_sear">
+        <item>Manager</item>
+        <item>Cashier</item>
+        <item>Waiter</item>
+        <item>Kitchen Sheff</item>
+        <item>Baresta</item>
+        <item>Store Man</item>
+        <item>Other</item>
+    </string-array>
+</resources>
